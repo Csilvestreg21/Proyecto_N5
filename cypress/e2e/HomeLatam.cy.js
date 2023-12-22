@@ -1,4 +1,4 @@
-import HomePage from '../pages/homePage.js'; // Asegúrate de ajustar la ruta correcta
+import HomePage from '../pages/homePage.js';
 import SelectTravelPage from '../pages/selectTravelPage.js';
 
 describe('Template Spec', () => {
