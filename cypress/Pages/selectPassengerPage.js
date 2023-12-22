@@ -16,7 +16,7 @@ class SelectPassenger {
     // Método estático para seleccionar un pasajero de tipo 'J'
     static passengerJ() {
         // Prueba para verificar el flujo de selección de pasajeros de tipo 'J'
-        cy.get('[data-testid="accordion-passenger-CHD_1"]');
+        //cy.get('[data-testid="accordion-passenger-CHD_1"]');
         cy.get('[data-testid="passengerDetails-firstName-CHD_1"] > .MuiInputBase-root').type('Tester');
         cy.get('[data-testid="passengerDetails-lastName-CHD_1"] > .MuiInputBase-root').type('jr');
         cy.get('#passengerInfo-dateOfBirth-CHD_1').type('12/12/2022');

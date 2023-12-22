@@ -27,15 +27,15 @@ class SelectSeat {
     // Método estático para seleccionar el manejo del equipaje
     static selectBaggage() {
         // Prueba para verificar el manejo del equipaje
-        cy.wait(4000);
+        cy.wait(6000);
         cy.visit('https://www.latamairlines.com/co/es/tienda?id=LA0351733LHZH');
     }
 
     // Método estático para seleccionar el equipaje especial
     static selectEspecialBaggage() {
         // Prueba para verificar la selección de equipaje especial
-        cy.wait(4000);
-        cy.get('.ListBaggages__ListSectionBaggage-eaweis-0 > .SectionBaggage__SectionBaggageWrapper-rccyl7-4 > .SectionBaggage__ListOffersWrapper-rccyl7-2 > .SpecialBaggage__ListContentSpecial-sc-6nr771-4 > #accordion-special-baggages').click();
+        //cy.wait(4000);
+        //cy.get('.ListBaggages__ListSectionBaggage-eaweis-0 > .SectionBaggage__SectionBaggageWrapper-rccyl7-4 > .SectionBaggage__ListOffersWrapper-rccyl7-2 > .SpecialBaggage__ListContentSpecial-sc-6nr771-4 > #accordion-special-baggages').click();
         cy.wait(6000);
         cy.visit('https://www.latamairlines.com/co/es/centro-ayuda/preguntas/equipaje/especial');
         cy.get('[data-testid="main-content-sidebar-equipaje-1-level-1-item-equipaje-especial-4-level-2-item-sidebarListItem"]').click();
