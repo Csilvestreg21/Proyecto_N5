@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "cypress": "^13.6.1",
+    "cypress-iframe": "^1.0.1",
+    "chromedriver": "^120.0.1"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.16.0"
+  },
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "cypress": {
+    "chromeWebSecurity": false,
+    "experimentalSourceRewriting": true,
+    "defaultCommandTimeout": 4000,
+    "env": {
+      "RETRIES": 2
+    },
+    "projectId": "your_project_id",
+    "ignoreTestFiles": "**/examples/**/*",
+    "testFiles": "**/*.{js,ts,jsx,tsx}"
+  }
+}
