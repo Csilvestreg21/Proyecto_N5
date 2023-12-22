@@ -1,8 +1,8 @@
 {
   "devDependencies": {
+    "chromedriver": "^120.0.1",
     "cypress": "^13.6.1",
-    "cypress-iframe": "^1.0.1",
-    "chromedriver": "^120.0.1"
+    "cypress-iframe": "^1.0.1"
   },
   "dependencies": {
     "selenium-webdriver": "^4.16.0"
